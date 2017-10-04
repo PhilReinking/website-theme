@@ -944,7 +944,7 @@ Usage (In Ghost editor):
 
 .subscribe-form {
     margin: 1.5em 0;
-    padding: 6.5vw 7vw 7vw;
+    padding: 5rem 3rem;
     border: color(var(--whitegrey)) 1px solid;
     text-align: center;
     background: color(var(--white));
@@ -1032,10 +1032,10 @@ Usage (In Ghost editor):
 
 @media (max-width: 650px) {
     .subscribe-form-title {
-        font-size: 2.4rem;
+        font-size: 1.75rem;
     }
     .subscribe-form p {
-        font-size: 1.6rem;
+        font-size: 1rem;
     }
 }
 
@@ -1782,7 +1782,11 @@ Usage (In Ghost editor):
 
 .site-footer-nav a {
     position: relative;
-    margin-left: 20px;
+    margin-left: 1rem;
+}
+
+.site-footer-nav a:first-child {
+    margin-left: 0;
 }
 
 .site-footer-nav a:before {
@@ -1804,6 +1808,10 @@ Usage (In Ghost editor):
 @media (max-width: 650px) {
     .site-footer-content {
         flex-direction: column;
+    }
+    .site-footer-nav {
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .site-footer-nav a:first-child {
         margin-left: 0;
