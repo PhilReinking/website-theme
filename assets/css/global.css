@@ -3,7 +3,7 @@
 
 :root {
     /* Colours */
-    --lightblue: #00C5E8;
+    --lightblue: #0044CC;
     --blue: #0044CC;
     --green: #a4d037;
     --purple: #ad26b4;
@@ -442,19 +442,6 @@ h1 {
     display: flex;
     align-items: center;
     text-align: left;
-}
-h1::after {
-    display: inline-block;
-    content: "";
-    display: block;
-    width: 180px;
-    height: 12px;
-    border-radius: 12px;
-    margin-left: 12px;
-    background: black;
-    position: relative;
-    top: 6px;
-    background-image: linear-gradient(-153deg, var(--lightblue) 0%, var(--blue) 95%);
 }
 
 @media (max-width: 500px) {
