@@ -83,7 +83,7 @@ body {
     position: relative;
     padding-top: 18px;
     padding-bottom: 18px;
-    margin-bottom: 60px;
+    margin-bottom: 2rem;
     color: var(--dark);
 }
 
@@ -127,8 +127,14 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 200px;
-    padding: 10vw 4vw;
+    padding: 5rem 4rem;
     text-align: center;
+}
+
+@media (max-width: 800px) {
+    .site-header-content {
+        flex-wrap: wrap;
+    }
 }
 
 .site-title {
@@ -159,9 +165,6 @@ body {
 @media (max-width: 500px) {
     .site-title {
         font-size: 3rem;
-    }
-    .site-description {
-        font-size: 1.8rem;
     }
 }
 
@@ -1836,6 +1839,7 @@ Usage (In Ghost editor):
     min-height: 120px;
     border: 2px solid var(--darkgrey);
     border-radius: 100%;
+    margin: 1rem 0;
     overflow: hidden;
 }
 
